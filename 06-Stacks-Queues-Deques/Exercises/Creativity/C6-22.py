@@ -42,3 +42,4 @@ def postfix(expr):
 if __name__ == "__main__":
     print(postfix('(A+B)*(C-D)/(E*F)'))
     print(postfix('(A/B^C-D)'))
+    print(postfix('((5+2)∗(8-3))/4'))
