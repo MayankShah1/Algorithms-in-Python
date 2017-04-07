@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="050d10e1-0e04-4ddf-9858-9ec835ee6f57" name="Default" comment="" />
+    <list default="true" id="050d10e1-0e04-4ddf-9858-9ec835ee6f57" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Linked-Lists/Circularly-Linked-Lists/circular_queue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +20,38 @@
     <favorites_list name="Algorithms-in-Python" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="queue_linked_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/queue_linked_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="60" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circular_queue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Circularly-Linked-Lists/circular_queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="71" column="41" lean-forward="false" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stack_linked_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/stack_linked_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/04-Recursion/Exercises/Creativity/C4-15.py" />
         <option value="$PROJECT_DIR$/04-Recursion/Project.py" />
         <option value="$PROJECT_DIR$/04-Recursion/Exercises/Project/P4-23.py" />
         <option value="$PROJECT_DIR$/04-Recursion/Exercises/Project/P4-27.py" />
@@ -84,6 +117,7 @@
         <option value="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project/P6-34.py" />
         <option value="$PROJECT_DIR$/07-Linked-Lists/SIngly-Linked-Lists/stack_linked_list.py" />
         <option value="$PROJECT_DIR$/07-Linked-Lists/SIngly-Linked-Lists/queue_linked_list.py" />
+        <option value="$PROJECT_DIR$/07-Linked-Lists/Circularly-Linked-Lists/circular_queue.py" />
       </list>
     </option>
   </component>
@@ -148,16 +182,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project" />
-      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Creativity" />
-      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Reinforcement" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists" />
       <recent name="$PROJECT_DIR$/04-Recursion/Binary-Recursion" />
       <recent name="$PROJECT_DIR$/04-Recursion/Linear-Recursion" />
       <recent name="$PROJECT_DIR$/Python-Primer/Exception-Handling" />
       <recent name="$PROJECT_DIR$/Python-Primer/Functions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project" />
+      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Creativity" />
+      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Reinforcement" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,8 +454,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="456" y="56" width="1398" height="992" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32026628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32026628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35023585" sideWeight="0.5029542" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3484487" sideWeight="0.4970458" order="2" side_tool="false" content_ui="tabs" />
@@ -450,27 +486,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-Recursion/Exercises/Reinforcement/R4-06.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-Recursion/Exercises/Reinforcement/R4-07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-Recursion/Exercises/Creativity/C4-09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-Recursion/Exercises/Creativity/C4-12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -798,6 +813,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="52" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/stack_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/queue_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="60" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Circularly-Linked-Lists/circular_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="71" column="41" lean-forward="false" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
