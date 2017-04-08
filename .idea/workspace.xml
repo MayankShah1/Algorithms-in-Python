@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050d10e1-0e04-4ddf-9858-9ec835ee6f57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/deque_linked_list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/doubly_linked_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Linked-Lists/Positional-List/doubly_linked_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Linked-Lists/Positional-List/positional-list.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,21 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="queue_linked_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/queue_linked_list.py">
+      <file leaf-file-name="deque_linked_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/deque_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="60" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="144">
+              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="circular_queue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Circularly-Linked-Lists/circular_queue.py">
+      <file leaf-file-name="positional-list.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Positional-List/positional-list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="139" column="4" lean-forward="false" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doubly_linked_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Positional-List/doubly_linked_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="31" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -45,28 +55,8 @@
       <file leaf-file-name="doubly_linked_list.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/doubly_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deque_linked_list.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/deque_linked_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stack_linked_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/stack_linked_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="144">
+              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -88,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/04-Recursion/Exercises/Project/P4-27.py" />
         <option value="$PROJECT_DIR$/04-Recursion/file-systems.py" />
         <option value="$PROJECT_DIR$/05-Array-Based-Sequences/Low-Level-Arrays/arrays.py" />
         <option value="$PROJECT_DIR$/05-Array-Based-Sequences/Dynamic-Arrays/list-size.py" />
@@ -139,6 +128,7 @@
         <option value="$PROJECT_DIR$/07-Linked-Lists/Circularly-Linked-Lists/circular_queue.py" />
         <option value="$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/doubly_linked_list.py" />
         <option value="$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/deque_linked_list.py" />
+        <option value="$PROJECT_DIR$/07-Linked-Lists/Positional-List/positional-list.py" />
       </list>
     </option>
   </component>
@@ -164,8 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,6 +167,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="07-Linked-Lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-in-Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-in-Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-Linked-Lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Positional-List" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,6 +218,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,17 +229,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07-Linked-Lists/Positional-List" />
+      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project" />
+      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Creativity" />
+      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Reinforcement" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists" />
       <recent name="$PROJECT_DIR$/04-Recursion/Binary-Recursion" />
       <recent name="$PROJECT_DIR$/04-Recursion/Linear-Recursion" />
       <recent name="$PROJECT_DIR$/Python-Primer/Exception-Handling" />
       <recent name="$PROJECT_DIR$/Python-Primer/Functions" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project" />
-      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Creativity" />
-      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Reinforcement" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,25 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deque_linked_list">
-    <configuration default="false" name="P6-36" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Algorithms-in-Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project/P6-36.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.positional-list">
     <configuration default="false" name="P6-34" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,6 +323,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Algorithms-in-Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/deque_linked_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="positional-list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-Linked-Lists/Positional-List" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algorithms-in-Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-Linked-Lists/Positional-List/positional-list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,19 +443,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.P6-36" />
-      <item index="1" class="java.lang.String" itemvalue="Python.P6-34" />
-      <item index="2" class="java.lang.String" itemvalue="Python.stack_linked_list" />
-      <item index="3" class="java.lang.String" itemvalue="Python.queue_linked_list" />
-      <item index="4" class="java.lang.String" itemvalue="Python.deque_linked_list" />
+      <item index="0" class="java.lang.String" itemvalue="Python.P6-34" />
+      <item index="1" class="java.lang.String" itemvalue="Python.stack_linked_list" />
+      <item index="2" class="java.lang.String" itemvalue="Python.queue_linked_list" />
+      <item index="3" class="java.lang.String" itemvalue="Python.deque_linked_list" />
+      <item index="4" class="java.lang.String" itemvalue="Python.positional-list" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.deque_linked_list" />
-        <item index="1" class="java.lang.String" itemvalue="Python.queue_linked_list" />
-        <item index="2" class="java.lang.String" itemvalue="Python.stack_linked_list" />
-        <item index="3" class="java.lang.String" itemvalue="Python.P6-34" />
-        <item index="4" class="java.lang.String" itemvalue="Python.P6-36" />
+        <item index="0" class="java.lang.String" itemvalue="Python.positional-list" />
+        <item index="1" class="java.lang.String" itemvalue="Python.deque_linked_list" />
+        <item index="2" class="java.lang.String" itemvalue="Python.queue_linked_list" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stack_linked_list" />
+        <item index="4" class="java.lang.String" itemvalue="Python.P6-34" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -495,10 +504,10 @@
     <frame x="456" y="56" width="1398" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32026628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32544377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35023585" sideWeight="0.5029542" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3484487" sideWeight="0.4970458" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3484487" sideWeight="0.4970458" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,20 +534,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-Recursion/Exercises/Creativity/C4-16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-Recursion/Exercises/Creativity/C4-18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-Recursion/Exercises/Creativity/C4-21.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -827,41 +822,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/SIngly-Linked-Lists/queue_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/SIngly-Linked-Lists/stack_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/SIngly-Linked-Lists/queue_linked_list.py" />
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/SIngly-Linked-Lists/stack_linked_list.py" />
     <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/stack_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/queue_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/doubly_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,14 +835,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists/queue_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="60" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/doubly_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Doubly-Linked-Lists/deque_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Positional-List/doubly_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Linked-Lists/Positional-List/positional-list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="139" column="4" lean-forward="false" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
           <folding />
         </state>
       </provider>
