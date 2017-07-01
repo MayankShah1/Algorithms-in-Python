@@ -47,10 +47,37 @@ class Tree:
         """Return True if Position p represents the root of the tree"""
         return self.root() == p
 
-    def is_leaf(self):
+    def is_leaf(self,p):
         """Return True if Position p does not have any children."""
-        return self.num_children() == 0
+        return self.num_children(p) == 0
 
     def is_empty(self):
         """Return True if Tree is empty"""
         return len(self) == 0
+
+    def depth(self, p):
+        """Returns number of levels separating p from root"""
+        if self.is_root(p):
+            return 0
+        else:
+            return 1 + self.depth(self.parent(p))
+
+    def _height1(self):
+        """Returns height of the tree."""
+        return max(self.depth(p) for p in self.positions() if self.is_leaf(p))
+
+    def _height2(self, p):
+        """Returns the height of the subtree rooted at Position p"""
+        if self.is_leaf(p):
+            return 0
+        else:
+            return 1 + max(self._height2(c) for c in self.children(p))
+
+    def height(self, p = None):
+        """Returns the height of the subtree rooted at Position p
+
+            If p is None returns the height of the entire tree.
+        """
+        if p is None:
+            p = self.root()
+        return self._height2(p)
