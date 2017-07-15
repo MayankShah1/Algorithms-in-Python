@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050d10e1-0e04-4ddf-9858-9ec835ee6f57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08-Trees/linked_binary_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08-Trees/queue_linked_list.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08-Trees/general_tree.py" afterPath="$PROJECT_DIR$/08-Trees/general_tree.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="general_tree.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="general_tree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08-Trees/general_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1476">
-              <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+            <state relative-caret-position="557">
+              <caret line="133" column="4" lean-forward="false" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue_linked_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-Trees/queue_linked_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="53" column="15" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -41,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linked_binary_tree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="linked_binary_tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08-Trees/linked_binary_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-559">
-              <caret line="117" column="34" lean-forward="true" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+            <state relative-caret-position="18">
+              <caret line="117" column="34" lean-forward="false" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -115,9 +126,9 @@
         <option value="$PROJECT_DIR$/07-Linked-Lists/Exercises/Creativity/C7-26.py" />
         <option value="$PROJECT_DIR$/01-Python-Primer/Exercises/Creativity/C1-25.py" />
         <option value="$PROJECT_DIR$/02-Object-Oriented-Programming/class-definitions/sequence-iterator.py" />
-        <option value="$PROJECT_DIR$/08-Trees/general_tree.py" />
         <option value="$PROJECT_DIR$/08-Trees/binary_tree.py" />
         <option value="$PROJECT_DIR$/08-Trees/linked_binary_tree.py" />
+        <option value="$PROJECT_DIR$/08-Trees/general_tree.py" />
       </list>
     </option>
   </component>
@@ -143,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,9 +179,60 @@
               <option name="myItemId" value="Algorithms-in-Python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-Linked-Lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Singly-Linked-Lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-in-Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-in-Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-Linked-Lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-in-Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-in-Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-Linked-Lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doubly-Linked-Lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-in-Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-in-Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -182,19 +243,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/08-Trees" />
+      <recent name="$PROJECT_DIR$/07-Linked-Lists/Exercises/Creativity" />
+      <recent name="$PROJECT_DIR$/07-Linked-Lists/Exercises/Reinforcement" />
+      <recent name="$PROJECT_DIR$/07-Linked-Lists/Positional-List" />
+      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/07-Linked-Lists/Singly-Linked-Lists" />
       <recent name="$PROJECT_DIR$/04-Recursion/Binary-Recursion" />
       <recent name="$PROJECT_DIR$/04-Recursion/Linear-Recursion" />
       <recent name="$PROJECT_DIR$/Python-Primer/Exception-Handling" />
       <recent name="$PROJECT_DIR$/Python-Primer/Functions" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/07-Linked-Lists/Exercises/Creativity" />
-      <recent name="$PROJECT_DIR$/07-Linked-Lists/Exercises/Reinforcement" />
-      <recent name="$PROJECT_DIR$/07-Linked-Lists/Positional-List" />
-      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Project" />
-      <recent name="$PROJECT_DIR$/06-Stacks-Queues-Deques/Exercises/Creativity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,7 +519,7 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13377556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13543394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35023585" sideWeight="0.5029542" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34759918" sideWeight="0.4970458" order="2" side_tool="false" content_ui="tabs" />
@@ -488,13 +549,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-Python-Primer/Functions/functions-default-params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-Python-Primer/Functions/keyword-parameters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -832,18 +886,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-Trees/general_tree.py">
+    <entry file="file://$PROJECT_DIR$/08-Trees/linked_binary_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        <state relative-caret-position="18">
+          <caret line="117" column="34" lean-forward="false" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-Trees/linked_binary_tree.py">
+    <entry file="file://$PROJECT_DIR$/08-Trees/queue_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-559">
-          <caret line="117" column="34" lean-forward="true" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+        <state relative-caret-position="360">
+          <caret line="53" column="15" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Trees/general_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="133" column="4" lean-forward="false" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
           <folding />
         </state>
       </provider>

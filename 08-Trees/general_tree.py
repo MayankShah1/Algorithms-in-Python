@@ -1,3 +1,5 @@
+import queue_linked_list as LQ
+
 class Tree:
     """Abstract base class representing a tree structure."""
 
@@ -81,3 +83,51 @@ class Tree:
         if p is None:
             p = self.root()
         return self._height2(p)
+
+    def __iter__(self):
+        """Generate an iteration of tree's elements"""
+
+        for p in self.positions():
+            yield p
+
+    def preorder(self):
+        """Generate a preorder iteration of positions in the tree"""
+        if not self.is_empty():
+            for p in self._subtree_preorder(self.root()):
+                yield p
+
+    def _subtree_preorder(self, p):
+        """Geneate a preorder iteration of positions subrooted at p"""
+        yield p
+        for c in self.children(p):
+            for other in self._subtree_preorder(c):             # do preorder of c's subtree
+                yield other                                     # yielding each to our caller
+
+    def positions(self):
+        """Generate an iteration of tree's postions"""
+        return self.preorder()
+
+    def postorder(self):
+        """Generate a postorder iteration of positions in the tree"""
+        if not self.is_empty():
+            for p in self._subtree_postorder(self.root()):
+                yield p
+
+    def _subtree_postorder(self, p):
+        """Geneate a postorder iteration of positions subrooted at p"""
+        for c in self.children(p):
+            for other in self._subtree_postorder(c):             # do postorder of c's subtree
+                yield other                                     # yielding each to our caller
+        yield p
+
+    def breadthfirst(self):
+        """Generate a breadth first iteration of the tree"""
+        if not self.is_empty():
+            fringe = LQ.LinkedQueue()
+            fringe.enqueue(self.root())
+            while not fringe.is_empty():
+                p = fringe.dequeue()
+                yield p
+                for c in self.children(p):
+                    fringe.enqueue(c)
+
