@@ -9,9 +9,9 @@ class LinkedBinaryTree(binary_tree.BinaryTree):
             self._element = element
             self._parent = parent
             self._left = left
-            self._parent = right
+            self._right = right
 
-    class Position(binary_tree.BinaryTree.Postion):
+    class Position(binary_tree.BinaryTree.Position):
         """An abstraction representing the location of a single element."""
 
         def __init__(self, container, node):
